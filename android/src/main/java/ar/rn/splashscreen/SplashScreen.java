@@ -1,4 +1,4 @@
-package ar.devio.rn.splashscreen;
+package ar.rn.splashscreen;
 
 import android.app.Activity;
 import android.app.Dialog;
