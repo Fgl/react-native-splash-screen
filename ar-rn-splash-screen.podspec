@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.summary      = package["description"]
   s.author       = 'fgl'
   s.license      = package["license"]
+  s.homepage     = package["homepage"]
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/Fgl/react-native-splash-screen", :tag => "v#{s.version}" }
   s.source_files  = "ios/*.{h,m}"
